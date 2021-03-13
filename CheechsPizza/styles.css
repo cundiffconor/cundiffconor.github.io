@@ -1,0 +1,116 @@
+html {
+  background-color: red;
+}
+
+body {
+  background-color: white;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  border-style: solid;
+}
+
+li a {
+  display: block;
+  color: black;
+  padding: 12px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: red;
+}
+* {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-item-left {
+  background-color: white;
+  padding: 10px;
+  flex: 50%;
+}
+
+.flex-item-right {
+  background-color: red;
+  padding: 10px;
+  flex: 50%;
+}
+
+.fa {
+  padding: 12px;
+  font-size: 35px;
+  width: 70px;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: purple;
+  color: white;
+}
+@media (max-width: 578px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+.flex-item-left img {
+  background-color: black;
+  width: 85%;
+  padding: 10px;
+  flex: 50%;
+}
+
+.flex-item-right img {
+  background-color: red;
+  width: 85%;
+  padding: 10px;
+  flex: 50%;
+}
+
+.flex-item-left h1 {
+  background-color: black;
+  margin: 1px;
+  font-size: 1.2em;
+  color: red;
+  padding: 10px;
+  flex: 50%;
+}
+
+.flex-item-right h1 {
+  background-color: red;
+  font-size: 1.2em;
+  margin: 1px;
+  padding: 10px;
+  flex: 50%;
+}
+@media (max-width: 578px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}

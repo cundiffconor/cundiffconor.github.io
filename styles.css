@@ -1,0 +1,134 @@
+html {
+  background-color: black;
+}
+
+h1 {
+  margin-left: 200px;
+  color: red;
+}
+
+.sidenav {
+  height: 100%;
+  width: 180px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden;
+  padding-top: 20px;
+  text-align: center;
+}
+
+
+.sidenav .navbar-brand {
+  text-align: center;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  text-align: left;
+}
+
+.sidenav a:hover {
+  color: red;
+}
+
+.main {
+  margin-left: 160px;
+  /* Same as the width of the sidenav */
+  font-size: 28px;
+  /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+.card-body {
+  background-color: black;
+  color: white;
+}
+
+.navbar-brand {
+  text-align: center;
+}
+
+.logo {
+  text-align: center;
+}
+
+.fab {
+  padding: 20px;
+  font-size: 30px;
+  width: 35px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fab:hover {
+  opacity: 0.7;
+}
+
+.fab-facebook {
+  background: red;
+  color: white;
+}
+
+.places {
+  margin-left: 425px;
+}
+
+.first h1 {
+  margin-left: 220px;
+  font-size: 1.5em;
+  color: inherit;
+}
+
+.second h1 {
+  margin-left: 220px;
+  font-size: 1.5em;
+  color: inherit;
+}
+
+.third h1 {
+  margin-left: 220px;
+  font-size: 1.5em;
+  color: inherit;
+}
+
+.webpages {
+  margin-left: 250px;
+  text-decoration: none;
+}
+
+@media (min-width: 578px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+
+/* Contact page CSS */
+.info {
+  margin-left: 230px;
+  font-size: 1.8em;
+}
+
+
+h2 {
+  margin-left: 225px;
+  font-size: 1.9em;
+}

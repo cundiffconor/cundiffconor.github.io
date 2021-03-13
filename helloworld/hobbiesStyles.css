@@ -1,0 +1,68 @@
+body {
+  height: 1200px;
+  background: linear-gradient(180deg, #404040 10%, black 85%);
+}
+
+h1 {
+  color: black;
+  margin-left: 50px
+}
+
+h2 {
+  color: black;
+  font-size: 2em;
+  margin-left: 50px;
+}
+
+p {
+  text-align: center;
+  font-size: 1.9em;
+  color: red;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.8em;
+  color: red;
+}
+
+h4 {
+  text-align: left;
+  color: red;
+  font-size: 1.5em;
+}
+
+img {
+  max-width: 50%;
+  max-height: 100%;
+  float: right;
+}
+
+.a {
+  float: left;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: gray;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}

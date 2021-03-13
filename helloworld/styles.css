@@ -1,0 +1,118 @@
+body {
+  height: 1200px;
+  background: linear-gradient(180deg, black 15%, #404040 85%);
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 15s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0% {
+    background-image: url("chiefs.jpeg");
+    left: 0px;
+    top: 0px;
+  }
+
+  25% {
+    background-image: url("chiefs.jpeg");
+    left: 1750px;
+    top: 0px;
+  }
+
+  50% {
+    background-image: url("chiefs.jpeg");
+    left: 1750px;
+    top: 900px;
+  }
+
+  75% {
+    background-image: url("chiefs.jpeg");
+    left: 0px;
+    top: 900px;
+  }
+
+  100% {
+    background-image: url("chiefs.jpeg");
+    left: 0px;
+    top: 0px;
+  }
+}
+
+h1 {
+  color: gray;
+  border-style: dotted;
+  border-color: red;
+  width: 23%;
+}
+
+h2 {
+  color: gray;
+  text-decoration: underline;
+  text-decoration-color: red;
+  text-decoration-style: dashed;
+}
+
+p {
+  color: red;
+  font-size: 1.5em;
+  margin-left: 110px;
+}
+
+h5 {
+  color: red;
+  text-indent: 130px;
+}
+
+h4 {
+  margin-left: 110px;
+  color: gray;
+}
+
+h6 {
+  margin-left: 110px;
+  color: gray;
+}
+
+div img {
+  max-height: 100px;
+  max-width: 100px;
+}
+
+footer {
+  font-size: 2em;
+  position: absolute;
+  margin-top: 620px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: gray;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
